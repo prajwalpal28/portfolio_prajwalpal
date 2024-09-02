@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import github_logo from '../assets/github_logo.png'
 import twitter_logo from '../assets/twitter_logo.png'
 import linkedin_logo from '../assets/linkedin_logo.png'
@@ -7,12 +8,12 @@ export const Navbar = () => {
     return (
         <div >
             <div className='flex justify-center gap-6' >
-                <ul className='flex gap-8 mt-10 bg-black bg-opacity-50 text-white p-4 rounded-lg'>
-                    <li className='hover:scale-110 transform transition-transform duration-300 hover:cursor-pointer font-bold'>Prajwal.Pal</li>
-                    <li className='hover:scale-110 transform transition-transform duration-300 hover:cursor-pointer font-bold'>About</li>
-                    <li className='hover:scale-110 transform transition-transform duration-300 hover:cursor-pointer font-bold'>Projects</li>
-                    <li className='hover:scale-110 transform transition-transform duration-300 hover:cursor-pointer font-bold'>Techstack</li>
-                    <li className='hover:scale-110 transform transition-transform duration-300 hover:cursor-pointer font-bold'>Contact</li>
+                <ul className='flex gap-8 mt-10 bg-black bg-opacity-50 text-white p-4 rounded-lg shadow-lg'>
+                    <li className='hover:scale-110 transform transition-transform duration-300 hover:cursor-pointer font-bold'> <Link to='/'>Prajwal.Pal</Link></li>
+                    <li className='hover:scale-110 transform transition-transform duration-300 hover:cursor-pointer font-bold'><Link to='/about'>About</Link></li>
+                    <li className='hover:scale-110 transform transition-transform duration-300 hover:cursor-pointer font-bold'><Link to='/projects'>Projects</Link></li>
+                    <li className='hover:scale-110 transform transition-transform duration-300 hover:cursor-pointer font-bold'><Link to='/techstack'>Techstack</Link></li>
+                    <li className='hover:scale-110 transform transition-transform duration-300 hover:cursor-pointer font-bold'><Link to='/contact'>Contact</Link></li>
                 </ul>
 
                 <ul className='flex gap-4 mt-10 bg-black bg-opacity-50 text-white p-4 rounded-lg'>
