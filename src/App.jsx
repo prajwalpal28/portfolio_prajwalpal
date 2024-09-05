@@ -6,11 +6,13 @@ import { About } from './Pages/About'
 import { Projects } from './Pages/Projects'
 import { Techstack } from './Pages/Techstack'
 import { Contact } from './Pages/Contact'
+import { Footer } from './Pages/Footer'
+
 function App() {
   return (
     <>
       <BrowserRouter>
-        <div className="h-screen bg-gradient-to-b from-black via-gray to-gray-light">
+        <div className="min-h-screen h-full bg-gradient-to-b from-gray-light via-black to-gray-light">
           <Navbar />
           <Routes>
             <Route path="/" element={<Landing />} />
@@ -19,6 +21,7 @@ function App() {
             <Route path="/techstack" element={<Techstack />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
+          <Footer />
         </div>
       </BrowserRouter>
     </>
