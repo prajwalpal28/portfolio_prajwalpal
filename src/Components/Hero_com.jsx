@@ -4,9 +4,9 @@ import Hero_imgg from '../assets/Hero_imgg.png';
 
 export const Hero_com = () => {
     return (
-        <div className="flex flex-col md:flex-row items-start justify-center min-h-screen mx-auto py-28">
+        <div className="flex flex-col md:flex-row items-start justify-center min-h-screen mx-auto py-28 pt-40">
 
-            <div className="flex flex-col gap-10 bg-black bg-opacity-40 text-white pt-10 pb-24 px-8 rounded-lg shadow-lg border border-opacity-15 border-gray max-h-6xl max-w-2xl">
+            <div className="flex flex-col gap-10 bg-black bg-opacity-40 text-white pt-10 pb-24 px-8 rounded-lg shadow-lg border border-opacity-15 border-gray max-h-6xl max-w-2xl ">
 
                 <div >
                     <h1 className="text-5xl font-bold text-white mb-6">

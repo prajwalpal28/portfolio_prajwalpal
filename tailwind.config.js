@@ -6,6 +6,7 @@ export default {
   ],
   theme: {
     colors: {
+      'navblur':'#070709',
       'white': '#ffffff',
       'black': '#000000',
       'green': '#13ce66',

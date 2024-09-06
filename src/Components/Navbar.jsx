@@ -9,10 +9,10 @@ export const Navbar = () => {
 
     const [menu, setMenu] = useState("Prajwal.Pal");
 
-    return (
-        <div >
-            <div className='flex justify-center gap-6' >
-                <ul className='flex gap-12 mt-10 bg-black bg-opacity-30 text-white p-4 rounded-lg shadow-lg border border-border'>
+    return ( 
+        <div className="fixed top-0 left-0 w-full z-50">
+            <div className='flex justify-center gap-12' >
+                <ul className='flex justify-evenly  gap-12 mt-10 bg-navblur bg-opacity-30 text-white p-4 rounded-lg shadow-lg border border-border backdrop-blur-3xl'>
                     <li
                         onClick={() => setMenu("Prajwal.Pal")}
                         className={`hover:scale-110 transform transition-transform duration-300 hover:cursor-pointer ${menu === "Prajwal.Pal" ? "font-bold" : ""}`}
@@ -49,7 +49,7 @@ export const Navbar = () => {
 
                 </ul>
 
-                <ul className='flex gap-4 mt-10 bg-black bg-opacity-30 text-white p-4 rounded-lg border border-border'>
+                <ul className='flex justify-evenly gap-4 mt-10 bg-black bg-opacity-30 text-white p-4 rounded-lg border border-border backdrop-blur-3xl'>
                     <li><a href="https://github.com/prajwalpal28" target="_blank"><img src={github_logo} alt="github" className="h-6 w-6 invert hover:scale-110 transform transition-transform duration-300 hover:cursor-pointer" /></a></li>
                     <h1 className='font-bold'>|</h1>
                     <li><a href="https://www.linkedin.com/in/prajwalpal28/" target="_blank"><img src={linkedin_logo} alt="linkedin" className="h-6 w-6 invert hover:scale-110 transform transition-transform duration-300 hover:cursor-pointer" /></a></li>
