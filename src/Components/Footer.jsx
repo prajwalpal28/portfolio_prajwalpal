@@ -1,58 +1,53 @@
-import { Typography } from "@material-tailwind/react";
-import Hero_imgg from '../assets/Hero_imgg.png'
+import React from 'react';
+import Hero_imgg from '../assets/Hero_imgg.png';
+import { Link } from 'react-router-dom';
 
 export function Footer() {
     return (
-        <footer className="w-full bg-transparent p-8">
-            <div className="flex flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 bg-transparent text-center md:justify-between">
-                <img src={Hero_imgg} alt="logo-ct" className="w-10" />
+        <footer className="w-full bg-transparent p-8 pt-12">
+            <div className="flex flex-col md:flex-row items-center justify-center md:justify-between gap-y-6 gap-x-12 text-center">
+                <a href="#" className='text-gray text-xl hover:scale-110 transform transition-transform duration-300 hover:cursor-pointer' >
+                    <Link to='/'>Prajwal.Pal</Link>
+                </a>
                 <ul className="flex flex-wrap items-center gap-y-2 gap-x-8">
                     <li>
-                        <Typography
-                            as="a"
+                        <a
                             href="#"
-                            color="gray"
-                            className="font-normal transition-colors hover:text-white focus:text-white"
+                            className="text-gray transition-colors hover:text-white focus:text-white font-normal"
                         >
                             About Us
-                        </Typography>
+                        </a>
                     </li>
                     <li>
-                        <Typography
-                            as="a"
+                        <a
                             href="#"
-                            color="gray"
-                            className="font-normal transition-colors hover:text-white focus:text-white"
+                            className="text-gray transition-colors hover:text-white focus:text-white font-normal"
                         >
-                            License
-                        </Typography>
+                            Project's
+                        </a>
                     </li>
                     <li>
-                        <Typography
-                            as="a"
+                        <a
                             href="#"
-                            color="gray"
-                            className="font-normal transition-colors hover:text-white focus:text-white"
+                            className="text-gray transition-colors hover:text-white focus:text-white font-normal"
                         >
-                            Contribute
-                        </Typography>
+                            Collaborate
+                        </a>
                     </li>
                     <li>
-                        <Typography
-                            as="a"
+                        <a
                             href="#"
-                            color="gray"
-                            className="font-normal transition-colors hover:text-white focus:text-white"
+                            className="text-gray transition-colors hover:text-white focus:text-white font-normal"
                         >
                             Contact Us
-                        </Typography>
+                        </a>
                     </li>
                 </ul>
             </div>
-            <hr className="my-8 border-gray-300" />
-            <Typography color="gray" className="text-center font-normal">
+            <hr className="my-8 border-gray" />
+            <p className="text-gray text-center font-normal">
                 &copy; 2024 Prajwal.Pal
-            </Typography>
+            </p>
         </footer>
     );
 }

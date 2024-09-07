@@ -3,7 +3,7 @@ import Collaborate_img from '../assets/Collaborate.png'
 
 export const Collaborate = () => {
     return (
-        <div className="min-h-max flex flex-col gap-44 md:flex-row items-center justify-center pb-10">
+        <div className="min-h-max flex flex-col gap-64 md:flex-row items-center justify-center pb-10">
 
             {/* Text Section */}
             <div className="text-white pl-2 text-center md:text-left md:max-w-md">

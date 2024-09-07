@@ -9,7 +9,6 @@ export const Projects = () => {
         <>
 
             <h1 className="text-4xl font-bold text-white ml-56 mb-10">Projects</h1>
-            <hr className="border-gray mb-4 w-1/2 m-auto" />
             <div className="flex flex-col gap-8 items-center justify-center mb-14 ">
 
                 <div className="max-w-5xl mx-auto p-6 bg-black bg-opacity-40 text-white pt-10 rounded-lg shadow-lg border border-opacity-15 border-gray p-4 rounded-lg shadow-lg border border-border' backdrop-blur-lg rounded-lg  flex flex-col md:flex-row items-center gap-6">
