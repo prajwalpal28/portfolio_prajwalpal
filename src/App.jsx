@@ -3,7 +3,7 @@ import './App.css'
 import { Navbar } from './Components/Navbar'
 import { Landing } from './Pages/Landing'
 import { About } from './Pages/About'
-import { Projects } from './Pages/Projects'
+import { ProjectPage } from './Pages/ProjectsPage'
 import { Techstack } from './Pages/Techstack'
 import { Contact } from './Pages/Contact'
 import { Footer } from './Components/Footer'
@@ -17,7 +17,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Landing />} />
             <Route path="/about" element={<About />} />
-            <Route path="/projects" element={<Projects />} />
+            <Route path="/projects" element={<ProjectPage />} />
             <Route path="/techstack" element={<Techstack />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>

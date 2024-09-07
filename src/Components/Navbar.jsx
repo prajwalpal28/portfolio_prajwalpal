@@ -9,7 +9,7 @@ export const Navbar = () => {
 
     const [menu, setMenu] = useState("Prajwal.Pal");
 
-    return ( 
+    return (
         <div className="fixed top-0 left-0 w-full z-50">
             <div className='flex justify-center gap-12' >
                 <ul className='flex justify-evenly  gap-12 mt-10 bg-navblur bg-opacity-30 text-white p-4 rounded-lg shadow-lg border border-border backdrop-blur-3xl'>
