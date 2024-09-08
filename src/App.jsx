@@ -7,6 +7,7 @@ import { ProjectPage } from './Pages/ProjectsPage'
 import { Techstack } from './Pages/Techstack'
 import { Contact } from './Pages/Contact'
 import { Footer } from './Components/Footer'
+import ScrollToTop from './Context/ScrollToTop'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <BrowserRouter>
         <div className="min-h-screen h-full bg-gradient-to-b from-gray-light via-black to-gray-light">
           <Navbar />
+          <ScrollToTop />
           <Routes>
             <Route path="/" element={<Landing />} />
             <Route path="/about" element={<About />} />

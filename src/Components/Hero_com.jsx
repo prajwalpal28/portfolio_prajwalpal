@@ -1,5 +1,6 @@
 import React from 'react';
 import Hero_imgg from '../assets/Hero_imgg.png';
+import { Link } from 'react-router-dom';
 
 export const Hero_com = () => {
     return (
@@ -24,9 +25,11 @@ export const Hero_com = () => {
                             See my resume
                         </a>
                     </button>
-                    <button className="bg-transparent border-2 border-gray text-indigo-500 py-2 px-3 sm:px-4 md:px-6 rounded-lg hover:bg-indigo-500 hover:text-white transition duration-300 hover:scale-110 transform shadow-[0px_0px_55px_2px_#1a202c]">
-                        <a href="">Get in touch</a>
-                    </button>
+                    <Link to='/contact'>
+                        <button className="bg-transparent border-2 border-gray text-indigo-500 py-2 px-3 sm:px-4 md:px-6 rounded-lg hover:bg-indigo-500 hover:text-white transition duration-300 hover:scale-110 transform shadow-[0px_0px_55px_2px_#1a202c]">
+                            <a href="">Get in touch</a>
+                        </button>
+                    </Link>
                 </div>
             </div>
 

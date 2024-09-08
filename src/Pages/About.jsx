@@ -1,7 +1,10 @@
 import React from 'react'
+import { AboutCom } from '../Components/AboutCom'
 
 export const About = () => {
   return (
-    <div>About</div>
+    <div>
+      <AboutCom />
+    </div>
   )
 }

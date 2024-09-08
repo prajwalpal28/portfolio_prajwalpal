@@ -1,5 +1,6 @@
 import React from 'react'
 import Collaborate_img from '../assets/Collaborate.png'
+import { Link } from 'react-router-dom'
 
 export const Collaborate = () => {
     return (
@@ -15,12 +16,12 @@ export const Collaborate = () => {
 
             {/* Button Section */}
             <div className="mt-4 md:mt-0">
-                <a href="">
+                <Link to='/contact'>
                     <button className="flex items-center gap-2 md:gap-3 border-2 border-gray-800 rounded-lg px-3 py-2 text-gray cursor-pointer hover:text-gray-200 hover:bg-indigo-500 hover:text-white transition duration-300 hover:scale-110 transform transition-transform duration-300 hover:cursor-pointer shadow-[0px_0px_55px_2px_#1a202c]">
                         <img src={Collaborate_img} alt="Collaborate" className="w-5 h-5 md:w-6 md:h-6 invert" />
                         Let’s Collaborate
                     </button>
-                </a>
+                </Link>
             </div>
         </div>
     )

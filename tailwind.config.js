@@ -12,6 +12,7 @@ export default {
       'green': '#13ce66',
       'gray-dark': '#273444',
       'gray': '#8492a6',
+      'input-box-gray': '#303030',
       'gray-light': '#333333',
       'border':'#282828',
       'red':'#ff6363',

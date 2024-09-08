@@ -13,38 +13,27 @@ export function Footer() {
 
                 {/* Footer Navigation Links */}
                 <ul className="flex flex-col md:flex-row items-center gap-y-4 md:gap-y-0 gap-x-8">
-                    <li>
-                        <a
-                            href="#"
-                            className="text-gray transition-colors hover:text-white focus:text-white font-normal"
-                        >
+                    <Link to='/about'>
+                        <li className="text-gray transition-colors hover:text-white focus:text-white font-normal">
                             About Us
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="#"
-                            className="text-gray transition-colors hover:text-white focus:text-white font-normal"
-                        >
+                        </li>
+                    </Link>
+
+                    <Link to='/projects'>
+                        <li className="text-gray transition-colors hover:text-white focus:text-white font-normal">
                             Project's
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="#"
-                            className="text-gray transition-colors hover:text-white focus:text-white font-normal"
-                        >
+                        </li>
+                    </Link>
+                    <Link to='/contact'>
+                        <li className="text-gray transition-colors hover:text-white focus:text-white font-normal">
                             Collaborate
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="#"
-                            className="text-gray transition-colors hover:text-white focus:text-white font-normal"
-                        >
+                        </li>
+                    </Link>
+                    <Link to='/contact'>
+                        <li className="text-gray transition-colors hover:text-white focus:text-white font-normal">
                             Contact Us
-                        </a>
-                    </li>
+                        </li>
+                    </Link>
                 </ul>
             </div>
 

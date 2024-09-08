@@ -9,6 +9,8 @@ export const Projects = () => {
         <>
             <h1 className="text-4xl font-bold text-white ml-8 md:ml-56">Projects</h1>
             <p className="text-gray text-sm sm:text-xl ml-8 md:ml-56 mb-10">Check out my projects.</p>
+            <hr className="border-gray-dark mb-4 w-full max-w-screen-lg mx-auto" />
+
             <div className="flex flex-col gap-8 items-center justify-center mb-14">
 
                 {/* Project 1: DesiDhaga */}
