@@ -1,4 +1,3 @@
-import React from 'react';
 import HiMimoji from '../assets/HiMimojii.png';
 
 export const AboutCom = () => {
@@ -19,7 +18,7 @@ export const AboutCom = () => {
         {/* Text Content */}
         <div className="md:col-span-2">
           <p className="mb-6 leading-relaxed">
-            I'm a final-year Information Technology student based in Pune, India.🏙️ In addition to my studies, I'm passionate about cricket🏏 and enjoy playing mobile games🎮 to relax and stay active.💪
+            I&apos;m a final-year Information Technology student based in Pune, India.🏙️ In addition to my studies, I&apos;m passionate about cricket🏏 and enjoy playing mobile games🎮 to relax and stay active.💪
           </p>
           <p className="leading-relaxed">
             As a wAs a web developer, I specialize in React⚛️ and am now expanding my skills in backend development. My goal🎯 is to become a versatile full-stack developer, mastering both frontend and backend technologies 💻.

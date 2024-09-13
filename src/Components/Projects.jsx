@@ -1,4 +1,3 @@
-import React from 'react';
 import link from '../assets/link.png';
 import code from '../assets/code.png';
 import DesiDhaga from '../assets/DesiDhaga_image.png';

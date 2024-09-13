@@ -1,4 +1,3 @@
-import React from 'react'
 import ContactMe from '../assets/ContactMe.png'
 import About from '../assets/Loveme.png'
 import ProjectIdea from '../assets/ProjectIdea.png'

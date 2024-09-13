@@ -1,4 +1,3 @@
-import React from 'react';
 import Hero_imgg from '../assets/Hero_imgg.png';
 import { Link } from 'react-router-dom';
 
@@ -11,7 +10,7 @@ export const Hero_com = () => {
 
                 <div>
                     <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4 md:mb-6">
-                        <span className="text-gray-light">I'am</span> Prajwal Pal
+                        <span className="text-gray-light">I&apos;am</span> Prajwal Pal
                     </h1>
                     <p className="text-base sm:text-lg md:text-xl leading-relaxed mb-4 md:mb-6">
                         I am a web developer with a strong focus on React, currently

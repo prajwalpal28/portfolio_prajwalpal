@@ -1,4 +1,3 @@
-import React from 'react'
 import { TechStack } from '../Components/TechStack'
 
 export const Techstack = () => {

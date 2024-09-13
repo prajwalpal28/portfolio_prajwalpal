@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 
 export function Footer() {
@@ -21,7 +20,7 @@ export function Footer() {
 
                     <Link to='/projects'>
                         <li className="text-gray transition-colors hover:text-white focus:text-white font-normal">
-                            Project's
+                            Project&apos;s
                         </li>
                     </Link>
                     <Link to='/contact'>

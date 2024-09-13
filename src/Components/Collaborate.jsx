@@ -1,4 +1,3 @@
-import React from 'react'
 import Collaborate_img from '../assets/Collaborate.png'
 import { Link } from 'react-router-dom'
 
