@@ -2,7 +2,7 @@ import HiMimoji from '../assets/HiMimojii.png';
 
 export const AboutCom = () => {
   return (
-    <div className="text-white w-full max-w-screen-lg mx-auto py-8 pt-44 px-4 md:px-8">
+    <div className="text-white w-full px-8 max-w-screen-lg mx-auto py-8 pt-44 px-4 md:px-8">
       {/* Section Heading */}
       <div className="mb-8 text-left">
         <h1 className="text-4xl font-bold">Meet Me</h1>

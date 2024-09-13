@@ -23,7 +23,7 @@ export const ContactMe = () => {
   };
 
   return (
-    <div className="w-full max-w-screen-lg mx-auto py-8 pt-44 text-white px-4 sm:px-6 lg:px-8">
+    <div className="w-full max-w-screen-lg mx-auto py-8 pt-44 text-white px-4 sm:px-6 lg:px-8 px-8">
       <div className="mb-8 text-left">
         <h1 className="text-3xl sm:text-4xl font-bold">Let&apos;s Connect</h1>
         <p className="text-gray text-base sm:text-xl mt-2">

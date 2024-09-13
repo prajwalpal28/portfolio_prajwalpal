@@ -1,7 +1,7 @@
 
 export const TechStack = () => {
     return (
-        <div className="text-white w-full max-w-screen-lg mx-auto py-8 pt-44 ">
+        <div className="text-white w-full max-w-screen-lg mx-auto py-8 pt-44 px-8">
             <div className="mb-8 text-left">
                 <h1 className="text-4xl font-bold">Techstack</h1>
                 <p className="text-gray text-sm sm:text-xl mt-2">See my technology stack.</p>
