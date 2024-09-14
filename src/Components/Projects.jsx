@@ -18,7 +18,7 @@ export const Projects = () => {
                     <div className="w-full md:w-1/2 p-4 text-white">
                         <h2 className="text-3xl font-bold mb-4">DesiDhaga - Clothing Brand</h2>
                         <hr className="border-gray mb-4" />
-                        <p className="text-lg mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat perspiciatis pariatur harum aperiam saepe a beatae repudiandae ad, omnis repellendus.</p>
+                        <p className="text-lg mb-6">I developed DesiDhaga - Clothing Brand, a fully responsive e-commerce website using React, Node.js, and MongoDB. It features secure user authentication, smooth navigation with React Router, and optimized design for all devices, demonstrating my full-stack development skills.</p>
                         <div className="flex space-x-4">
                             <button className="p-2 rounded-lg bg-transparent border-2 border-gray-dark hover:bg-indigo-500 hover:text-white transition duration-300 hover:scale-110 transform transition-transform duration-300 hover:cursor-pointer shadow-[0px_0px_55px_2px_#1a202c]">
                                 <a href="https://github.com/prajwalpal28/DesiDhaga-ClothingBrand" target='_blank'>
@@ -45,7 +45,7 @@ export const Projects = () => {
                     <div className="w-full md:w-1/2 p-4 text-white">
                         <h2 className="text-3xl font-bold mb-4">Sundown_Studio - Animated Website</h2>
                         <hr className="border-gray mb-4" />
-                        <p className="text-lg mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat perspiciatis pariatur harum aperiam saepe a beatae repudiandae ad, omnis repellendus.</p>
+                        <p className="text-lg mb-6">I built a modern, responsive web design using HTML5, CSS3, and JavaScript, with advanced animation libraries for fluid effects. It features smooth scrolling and is optimized for fast load times and performance.</p>
                         <div className="flex space-x-4">
                             <button className="p-2 rounded-lg bg-transparent border-2 border-gray-dark hover:bg-indigo-500 hover:text-white transition duration-300 hover:scale-110 transform transition-transform duration-300 hover:cursor-pointer shadow-[0px_0px_55px_2px_#1a202c]">
                                 <a href="https://github.com/prajwalpal28/Sundown_Studio-Animated-Website" target='_blank'>

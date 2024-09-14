@@ -21,7 +21,7 @@ export const AboutCom = () => {
             I&apos;m a final-year Information Technology student based in Pune, India.🏙️ In addition to my studies, I&apos;m passionate about cricket🏏 and enjoy playing mobile games🎮 to relax and stay active.💪
           </p>
           <p className="leading-relaxed">
-            As a wAs a web developer, I specialize in React⚛️ and am now expanding my skills in backend development. My goal🎯 is to become a versatile full-stack developer, mastering both frontend and backend technologies 💻.
+            As a was a web developer, I specialize in React⚛️ and am now expanding my skills in backend development. My goal🎯 is to become a versatile full-stack developer, mastering both frontend and backend technologies 💻.
           </p>
         </div>
 
