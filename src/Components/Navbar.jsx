@@ -63,9 +63,11 @@ export const Navbar = () => {
                     >
                         <Link to='/'>Prajwal.Pal</Link>
                     </li>
+
                     <button onClick={toggleMenu} className="text-white focus:outline-none">
                         {isOpen ? <FiX className="h-10 w-10" /> : <FiMenu className="h-10 w-10" />}
                     </button>
+
                 </div>
             </div>
 
