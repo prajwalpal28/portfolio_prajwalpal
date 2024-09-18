@@ -52,7 +52,7 @@ export const Hero_com = () => {
                 </div>
             </div>
 
-            <div className={`${resumeOpen ? 'block' : 'hidden'} p-4 rounded-lg shadow-lg border border-border backdrop-blur-3xl text-white absolute md:right-44 right-10 top-10 transition-all duration-300 z-50`}>
+            <div className={`${resumeOpen ? 'block' : 'hidden'} p-4 rounded-lg shadow-lg border border-border backdrop-blur-3xl text-white absolute md:right-44 mx-auto right-10 top-10 transition-all duration-300 z-50`}>
 
                 <div className="md:max-w-lg md:w-full md:h-auto max-w-80 w-full h-auto mx-auto p-3 shadow-md rounded-lg">
                     <button onClick={toggleResume} className="text-white focus:outline-none absolute top-1 right-3">
