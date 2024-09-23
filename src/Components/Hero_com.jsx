@@ -60,11 +60,11 @@ export const Hero_com = () => {
             {/* Resume Popup */}
             {resumeOpen && (
                 <div className="fixed inset-0 flex justify-center items-center z-50 bg-black bg-opacity-50 backdrop-blur-md">
-                    <div className="p-4 rounded-lg shadow-lg border border-border backdrop-blur-3xl text-white relative max-w-lg w-full mx-4 transition-all duration-300">
+
+                    <div className="p-4 rounded-lg my-10 shadow-lg border border-border backdrop-blur-3xl text-white relative max-w-2xl w-full mx-4 transition-all duration-300">
                         <button onClick={toggleResume} className="text-white focus:outline-none absolute top-3 right-3">
                             <FiX className="h-8 w-8" />
                         </button>
-
 
                         <div className="text-center">
                             <h1 className="text-xl font-bold">Prajwal Pal</h1>
