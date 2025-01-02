@@ -66,6 +66,38 @@ export const Projects = () => {
                     </div>
                 </div>
 
+                {/* Project 3: DevTinder*/}
+                <div className="max-w-5xl mx-auto p-6 bg-black bg-opacity-40 text-white pt-10 rounded-lg shadow-lg border border-opacity-15 border-gray backdrop-blur-lg flex flex-col md:flex-row items-center gap-6">
+                    {/* Project Text Section */}
+                    <div className="w-full md:w-1/2 p-4 text-white">
+                        <h2 className="text-3xl font-bold mb-4">DevTinder - Tinder for Developers</h2>
+                        <hr className="border-gray mb-4" />
+                        <p className="text-lg mb-6">● Node.js: Built a high-performance backend capable of handling concurrent user requests efficiently. <br />
+                            ● Express.js: Streamlined the development of RESTful APIs with modular routing and middleware for enhanced scalability. <br />
+                            ● MongoDB: Designed a flexible, schema-less database for storing user data, connections, and authentication details.     <br />
+                            ● Optimized API performance with asynchronous operations using Promises and async/await.    <br />
+                            ● Enhanced security through JWT (JSON Web Tokens) for user authentication and bcrypt for password hashing.
+                        </p>
+                        <div className="flex space-x-4">
+                            <button className="p-2 rounded-lg bg-transparent border-2 border-gray-dark hover:bg-indigo-500 hover:text-white transition duration-300 hover:scale-110 transform transition-transform duration-300 hover:cursor-pointer shadow-[0px_0px_55px_2px_#1a202c]">
+                                <a href="https://github.com/prajwalpal28/DevTinder---Tinder-for-Developers" target='_blank'>
+                                    <img src={code} alt="Source Code" className="h-6 w-6" />
+                                </a>
+                            </button>
+                            <button className="p-2 rounded-lg bg-transparent border-2 border-gray-dark hover:bg-indigo-500 hover:text-white transition duration-300 hover:scale-110 transform transition-transform duration-300 hover:cursor-pointer shadow-[0px_0px_55px_2px_#1a202c]">
+                                <a href="https://github.com/prajwalpal28/DevTinder---Tinder-for-Developers" target='_blank'>
+                                    <img src={link} alt="Visit" className="h-6 w-6" />
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+
+                    {/* Project Image Section */}
+                    <div className="w-full md:w-1/2 p-4">
+                        <img src={"#"} alt="Project Demo" className="rounded-lg shadow-lg object-cover w-full h-auto" />
+                    </div>
+                </div>
+
             </div>
         </>
     );
