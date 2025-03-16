@@ -2,7 +2,7 @@ import link from "../assets/link.png";
 import code from "../assets/code.png";
 import DesiDhaga from "../assets/DesiDhaga_image.png";
 import SundownStudio from "../assets/SundownStudio_image.png";
-import DevTinder_Img from "../assets/DevTinder_img.png";
+import DevTinder_Img from "../assets/DevTinder_image.png";
 
 export const Projects = () => {
   return (
@@ -14,6 +14,7 @@ export const Projects = () => {
       <hr className="border-gray-dark mb-4 w-full max-w-screen-lg mx-auto" />
 
       <div className="flex flex-col gap-8 items-center justify-center mb-14 px-8">
+
         {/* Project 1: DesiDhaga */}
         <div className="max-w-5xl mx-auto p-6 bg-black bg-opacity-40 text-white pt-10 rounded-lg shadow-lg border border-opacity-15 border-gray backdrop-blur-lg flex flex-col md:flex-row items-center gap-6">
           {/* Project Text Section */}

@@ -8,7 +8,7 @@ import { Techstack } from './Pages/Techstack'
 import { Contact } from './Pages/Contact'
 import { Footer } from './Components/Footer'
 import ScrollToTop from './Context/ScrollToTop'
-import { Analytics } from "@vercel/analytics/react"
+// import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
             <Route path="/projects" element={<ProjectPage />} />
             <Route path="/techstack" element={<Techstack />} />
             <Route path="/contact" element={<Contact />} />
-            <Analytics />
+            {/* <Analytics /> */}
           </Routes>
           <Footer />
         </div>
